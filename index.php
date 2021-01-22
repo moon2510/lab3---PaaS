@@ -114,9 +114,6 @@
 }
 
 </style>
-<?php
-echo "Hello World!";
-?>
 <body>
    <div class="wrapper">
          <div class="box-area">
@@ -129,6 +126,7 @@ echo "Hello World!";
             <div class="box top-box"></div>
             <div class="box bottom-box"></div>
          </div>
-      </div>
+   </div>
+   <?php echo "Hello World!"; ?>
 </body>
 </html>
