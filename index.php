@@ -114,9 +114,11 @@
 }
 
 </style>
-<?php echo "HELLO WORLD ?>
+<?php
+echo "Hello World!";
+?>
 <body>
-      <div class="wrapper">
+   <div class="wrapper">
          <div class="box-area">
             <div class="box front-box"></div>
             <div class="box front-middle-box"></div>
@@ -128,5 +130,5 @@
             <div class="box bottom-box"></div>
          </div>
       </div>
- </body>
+</body>
 </html>
