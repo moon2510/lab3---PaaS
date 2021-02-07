@@ -115,6 +115,12 @@
 
 </style>
 <body>
+   <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
    <div class="wrapper">
          <div class="box-area">
             <div class="box front-box"></div>
