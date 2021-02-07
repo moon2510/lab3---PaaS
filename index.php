@@ -121,6 +121,10 @@
   data-width="450"
   data-show-faces="true">
 </div>
+   FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/',
+}, function(response){});
    <div class="wrapper">
          <div class="box-area">
             <div class="box front-box"></div>
