@@ -136,6 +136,11 @@
    </div>
    <?php echo "Hello World!"; ?>
    <script>
+      FB.AppEvents.logPageView();
+      
+<button onclick='FB.AppEvents.logEvent("buttonClicked")'>
+  Click me
+</button>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '249684039898571',
